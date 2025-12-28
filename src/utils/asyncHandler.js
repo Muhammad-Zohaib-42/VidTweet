@@ -10,7 +10,7 @@ const asyncHandler = (requestHandler) => {
 //     } catch (error) {
 //         res.status(error.code || 500).json({
 //             success: false,
-//             message: error.message
+//             message: error.messages
 //         })
 //     }
 // }
